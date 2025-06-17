@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Browser OCR with Tesseract.js</title>
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5.0.4/dist/tesseract.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    input[type="file"] {
+      margin-bottom: 1rem;
+    }
+    #result {
+      margin-top: 1rem;
+      white-space: pre-wrap;
+      background: #f9f9f9;
+      padding: 1rem;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>OCR Image Reader</h1>
+  <input type="file" id="imageInput" accept="image/*">
+  <p id="status">Waiting for image...</p>
+  <div id="result"></div>
+
+  <script>
+    const input = document.getElementById('imageInput');
+    const result = document.getElementById('result');
+    const status = document.getElementById('status');
+
+    input.addEventListener('change', async () => {
+      const file = input.files[0];
+      if (!file) return;
+
+      status.textContent = 'Reading image...';
+      result.textContent = '';
+
+      const reader = new FileReader();
+      reader.onload = async () => {
+        status.textContent = 'Running OCR...';
+
+        const { data: { text } } = await Tesseract.recognize(
+          reader.result,
+          'eng',
+          {
+            logger: m => status.textContent = `Progress: ${Math.round(m.progress * 100)}%`
+          }
+        );
+
+        status.textContent = 'OCR complete.';
+        result.textContent = text.trim();
+      };
+
+      reader.readAsDataURL(file);
+    });
+  </script>
+
+</body>
+</html>
