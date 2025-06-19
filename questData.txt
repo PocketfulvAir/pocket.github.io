@@ -1,0 +1,46 @@
+Haven: Collect Red Antenna Pieces	slow
+Haven: Collect Blue Chipset Pieces	slow
+Haven: Collect Green Chipset Pieces	average
+Haven: Collect Red Chipset Piece	average
+Haven: Defeat Hunterizer Red	slow
+Haven: Defeat Outer Guard EX	average
+Haven: Defeat Repairoid	fast
+Haven: Defeat Inner Guard EX	slow
+Scrapyard: Collect Red Android Scopes	average
+Scrapyard: Deliver Blue Antenna Pieces	slow 
+Scrapyard: Deliver Blue Android Scopes	average
+Scrapyard: Defeat Chaseroid Blue	average
+Scrapyard: Defeat Hunterizer Blue	slow
+Scrapyard: Defeat Chaseroid Red	average
+Scrapyard: Repair Damaged Buildings	average
+Scrapyard: Free the Modded Broken Android	average
+Scrapyard: Free the Modded Scaredroid	fast
+Skyline: Defeat Salvoroid Red	fast
+Skyline: Deliver Prison Key Pieces	slow
+Skyline: Deliver Red Blind Shell	fast
+Skyline: Repair Damaged Buildings	slow
+Skyline: Collect Pipe Pieces	fast
+Skyline: Defeat Modded Buffroid	slow
+Skyline: Free the Modded Deliverbot	slow
+Skyline: Free the Modded Laseroid	average
+Black Heaven Deck: Defeat Repairoids	fast
+Black Heaven Deck: Defeat Salvoroid Blue	fast
+Black Heaven Deck: Defeat Demolishizer	fast
+Black Heaven Deck: Deliver Blue Blind Shell	fast
+Black Heaven Deck: Deliver Field Siren	average
+Black Heaven Deck: Collect Steel Drill	fast
+Black Heaven Inside: Defeat Modded Megaroid	fast
+Black Heaven Inside: Defeat Alloy Xenoroid EX	fast
+Black Heaven Inside: Defeat Alloy Xenoroid DX	fast
+Black Heaven Inside: Defeat Scrap Xenoroid EX	slow
+Black Heaven Inside: Defeat Scrap Xenoroid DX	slow
+Black Heaven Inside: Defeat Steel Xenoroid DX	average
+Black Heaven Inside: Defeat Steel Xenoroid EX	average
+Black Heaven Inside: Collect Internal Siren	slow
+Black Heaven Inside: Collect Scrap ID Plate	average
+Black Heaven Inside: Collect Alloy ID Plate	fast
+Black Heaven Inside: Collect Steel ID Plate	slow
+Black Heaven Inside: Deliver Alloy Xenoroid Chipsets	fast
+Black Heaven Inside: Deliver Scrap Xenoroid Chipsets	slow
+Black Heaven Inside: Deliver Steel Xenoroid Chipsets	average
+Black Heaven Inside: Repair	fast
